@@ -1,14 +1,15 @@
 # Assignment-9-Employee-Database-Management
 
-This is a Java application to manage employee data using a database. It allows you to:
+This Java application manages employee data using a database. It supports the following features:  
 
-Add new employees (Create).
- •View employee details by ID or see all employees (Read).
- •Update employee information (Update).
- •Delete employee records (Delete).
-The project uses JDBC to connect to a MySQL database named employee_db. The EmployeeData class handles all the database operations, and the Employee class represents the employee details.
+- Adding new employees (Create).  
+- Viewing employee details by ID or listing all employees (Read).  
+- Updating employee information (Update).  
+- Deleting employee records (Delete).  
 
-To test the application, the main() method performs all these operations step by step.
+The application connects to a MySQL database named `employee_db` using JDBC. The `EmployeeData` class handles all database operations, while the `Employee` class represents employee details.  
+
+The `main()` method demonstrates the functionality by performing each operation step by step.
 ![image](https://github.com/user-attachments/assets/343e2aae-1a3e-493b-bc09-d3fcf8573505)
 ![image](https://github.com/user-attachments/assets/4b9c5e10-2ab9-4f67-b172-a0866b04fd7e)
 ![image](https://github.com/user-attachments/assets/6d82eaba-ba13-4a71-a90d-795710250322)
